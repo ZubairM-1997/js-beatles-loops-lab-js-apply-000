@@ -6,17 +6,17 @@ var instruments = ['Guitar'];
 var intruments_length = instruments.lenght;
 
 function theBeatlesPlay (musicians, instruments) {
-	
-	for (var i = 0; i < musicians_length; i++) {
-		
-		for (var j = 0; j < intruments_length; j++) {
-			var output = musicians[i] plays the instruments[j]
 
-			console.log(output)
-		}
+	const newarray = [];
+	for (var i = 0; i < musicians_length; i++) {
+		var output = musicians[i] + "plays the " + instruments[0]
+		newarray.push(output);
+
+		
 
 	}
 
+	return newarray	
 }
 
 // while loop
